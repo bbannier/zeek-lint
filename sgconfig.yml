@@ -1,0 +1,9 @@
+ruleDirs:
+  - ./rules
+testConfigs:
+  - testDir: ./rule-tests
+
+customLanguages:
+  zeek:
+    libraryPath: node_modules/tree-sitter-zeek/build/Release/tree_sitter_zeek_binding.node
+    extensions: [zeek]

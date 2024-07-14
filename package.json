@@ -1,0 +1,21 @@
+{
+  "name": "spicy-lint",
+  "version": "0.0.1",
+  "description": "Spicy linting setup",
+  "author": {
+    "name": "Benjamin Bannier",
+    "email": "bbannier@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Spicy",
+    "linter"
+  ],
+  "dependencies": {
+    "@ast-grep/cli": "^0.25.0",
+    "tree-sitter-zeek": "github:zeek/tree-sitter-zeek"
+  },
+  "scripts": {
+    "test": "sg test"
+  }
+}
