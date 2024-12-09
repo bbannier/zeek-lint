@@ -12,7 +12,7 @@
     "linter"
   ],
   "dependencies": {
-    "@ast-grep/cli": "^0.31.0",
+    "@ast-grep/cli": "^0.31.1",
     "tree-sitter-zeek": "github:zeek/tree-sitter-zeek"
   },
   "scripts": {
