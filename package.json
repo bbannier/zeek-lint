@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "@ast-grep/cli": "^0.39.6",
-    "tree-sitter-zeek": "github:zeek/tree-sitter-zeek"
+    "tree-sitter-zeek": "github:zeek/tree-sitter-zeek#t/wip"
   },
   "scripts": {
     "test": "sg test"
